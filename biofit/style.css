@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    color: #606060;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.article-container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.advertisiment-badge {
+    margin: 3px 0;
+    font-weight: 300;
+    text-align: center;
+    color: #222;
+    font-size: 17px;
+}
+
+.article-logo-container {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.article-header {
+    box-shadow: #24212138 0px 1px 2px 2px !important;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+}
+
+.article-header-content {
+    display: flex;
+}
+
+.author-photo-container {
+    margin-right: 10px;
+}
+
+.author-name {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #1F599D;
+}
+
+.article-statistics {
+    font-size: 14px;
+}
+
+.article-statistics-block {
+    margin-right: 15px;
+}
+
+.article-statistics-icon {
+    margin-right: 5px;
+}
+
+.article-title {
+    text-align: center;
+    color: #222;
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 700;
+    padding: 15px 15px 20px 15px;
+}
+
+.article-body {
+    box-shadow: #24212138 0px 1px 2px 2px !important;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.article-image-container {
+    margin-bottom: 20px;
+}
+
+.article-image-link {
+    width: 100%;
+}
+
+.article-image {
+    width: 100%;
+}
+
+.article-paragraph {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.article-button-container {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.article-button {
+    background: #5FBD48;
+    font-weight: 500;
+    font-size: 28px;
+    color: #fff;
+    padding: 18px 70px 18px 70px;
+    text-decoration: none;
+    letter-spacing: 0.4px;
+}
+
+.article-button:hover {
+    background: #54a73f;
+}
+
+.article-disclaimer {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 0 30px;
+}
+
+.page-footer {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-link {
+    color: #337ab7;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .article-title {
+        font-size: 27px;
+        line-height: 33px;
+    }
+    .article-header,
+    .article-body {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
